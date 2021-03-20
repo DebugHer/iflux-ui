@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		A03974D52605B6EF0005B555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03974D42605B6EF0005B555 /* AppDelegate.swift */; };
 		A03974D72605B6EF0005B555 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03974D62605B6EF0005B555 /* SceneDelegate.swift */; };
-		A03974D92605B6EF0005B555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03974D82605B6EF0005B555 /* ViewController.swift */; };
+		A03974D92605B6EF0005B555 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03974D82605B6EF0005B555 /* HomeViewController.swift */; };
 		A03974DC2605B6EF0005B555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03974DA2605B6EF0005B555 /* Main.storyboard */; };
 		A03974DE2605B6F10005B555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03974DD2605B6F10005B555 /* Assets.xcassets */; };
 		A03974E12605B6F10005B555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03974DF2605B6F10005B555 /* LaunchScreen.storyboard */; };
 		A03974EC2605B6F10005B555 /* ifluxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03974EB2605B6F10005B555 /* ifluxUITests.swift */; };
+		A03974FB2605BECD0005B555 /* BalancesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03974FA2605BECD0005B555 /* BalancesCollectionViewCell.swift */; };
+		A03974FE2605C0F90005B555 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03974FD2605C0F90005B555 /* Wallet.swift */; };
+		A045C40A260609B300C024AB /* TransactionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045C409260609B300C024AB /* TransactionsTableViewCell.swift */; };
+		A045C40C26060F3500C024AB /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045C40B26060F3500C024AB /* Transactions.swift */; };
+		A045C40E26061D1600C024AB /* WalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045C40D26061D1600C024AB /* WalletsViewController.swift */; };
+		A045C4112606277800C024AB /* CryptoWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045C4102606277800C024AB /* CryptoWallet.swift */; };
+		A045C413260628E900C024AB /* CryptoWalletsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045C412260628E900C024AB /* CryptoWalletsTableViewCell.swift */; };
+		A0C0415A2605E24F00A1C86E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C041592605E24F00A1C86E /* UIColor.swift */; };
+		A0C0415C2605F43100A1C86E /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C0415B2605F43100A1C86E /* UIView+Layer.swift */; };
+		A0C0415E2605F48600A1C86E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C0415D2605F48600A1C86E /* Services.swift */; };
+		A0C041602605F52F00A1C86E /* ServicesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C0415F2605F52F00A1C86E /* ServicesCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +41,7 @@
 		A03974D12605B6EF0005B555 /* iflux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iflux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03974D42605B6EF0005B555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A03974D62605B6EF0005B555 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A03974D82605B6EF0005B555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A03974D82605B6EF0005B555 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A03974DB2605B6EF0005B555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A03974DD2605B6F10005B555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A03974E02605B6F10005B555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +49,17 @@
 		A03974E72605B6F10005B555 /* ifluxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ifluxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03974EB2605B6F10005B555 /* ifluxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifluxUITests.swift; sourceTree = "<group>"; };
 		A03974ED2605B6F10005B555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03974FA2605BECD0005B555 /* BalancesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancesCollectionViewCell.swift; sourceTree = "<group>"; };
+		A03974FD2605C0F90005B555 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		A045C409260609B300C024AB /* TransactionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTableViewCell.swift; sourceTree = "<group>"; };
+		A045C40B26060F3500C024AB /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		A045C40D26061D1600C024AB /* WalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewController.swift; sourceTree = "<group>"; };
+		A045C4102606277800C024AB /* CryptoWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWallet.swift; sourceTree = "<group>"; };
+		A045C412260628E900C024AB /* CryptoWalletsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletsTableViewCell.swift; sourceTree = "<group>"; };
+		A0C041592605E24F00A1C86E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		A0C0415B2605F43100A1C86E /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
+		A0C0415D2605F48600A1C86E /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		A0C0415F2605F52F00A1C86E /* ServicesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +101,11 @@
 		A03974D32605B6EF0005B555 /* iflux */ = {
 			isa = PBXGroup;
 			children = (
+				A03974FF2605C2680005B555 /* extensions */,
+				A03974FC2605C0DA0005B555 /* models */,
+				A03974F62605BE180005B555 /* views */,
 				A03974D42605B6EF0005B555 /* AppDelegate.swift */,
 				A03974D62605B6EF0005B555 /* SceneDelegate.swift */,
-				A03974D82605B6EF0005B555 /* ViewController.swift */,
 				A03974DA2605B6EF0005B555 /* Main.storyboard */,
 				A03974DD2605B6F10005B555 /* Assets.xcassets */,
 				A03974DF2605B6F10005B555 /* LaunchScreen.storyboard */,
@@ -97,6 +121,55 @@
 				A03974ED2605B6F10005B555 /* Info.plist */,
 			);
 			path = ifluxUITests;
+			sourceTree = "<group>";
+		};
+		A03974F62605BE180005B555 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A045C40F26061D3C00C024AB /* viewcontrollers */,
+				A03974F72605BE300005B555 /* cells */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A03974F72605BE300005B555 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				A03974FA2605BECD0005B555 /* BalancesCollectionViewCell.swift */,
+				A0C0415F2605F52F00A1C86E /* ServicesCollectionViewCell.swift */,
+				A045C409260609B300C024AB /* TransactionsTableViewCell.swift */,
+				A045C412260628E900C024AB /* CryptoWalletsTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		A03974FC2605C0DA0005B555 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A03974FD2605C0F90005B555 /* Wallet.swift */,
+				A0C0415D2605F48600A1C86E /* Services.swift */,
+				A045C40B26060F3500C024AB /* Transactions.swift */,
+				A045C4102606277800C024AB /* CryptoWallet.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A03974FF2605C2680005B555 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A0C041592605E24F00A1C86E /* UIColor.swift */,
+				A0C0415B2605F43100A1C86E /* UIView+Layer.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		A045C40F26061D3C00C024AB /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				A045C40D26061D1600C024AB /* WalletsViewController.swift */,
+				A03974D82605B6EF0005B555 /* HomeViewController.swift */,
+			);
+			path = viewcontrollers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +273,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A03974D92605B6EF0005B555 /* ViewController.swift in Sources */,
+				A03974FE2605C0F90005B555 /* Wallet.swift in Sources */,
+				A0C0415A2605E24F00A1C86E /* UIColor.swift in Sources */,
+				A045C4112606277800C024AB /* CryptoWallet.swift in Sources */,
+				A045C40A260609B300C024AB /* TransactionsTableViewCell.swift in Sources */,
+				A03974D92605B6EF0005B555 /* HomeViewController.swift in Sources */,
 				A03974D52605B6EF0005B555 /* AppDelegate.swift in Sources */,
+				A045C40C26060F3500C024AB /* Transactions.swift in Sources */,
+				A03974FB2605BECD0005B555 /* BalancesCollectionViewCell.swift in Sources */,
+				A0C0415E2605F48600A1C86E /* Services.swift in Sources */,
+				A0C041602605F52F00A1C86E /* ServicesCollectionViewCell.swift in Sources */,
+				A045C413260628E900C024AB /* CryptoWalletsTableViewCell.swift in Sources */,
+				A045C40E26061D1600C024AB /* WalletsViewController.swift in Sources */,
 				A03974D72605B6EF0005B555 /* SceneDelegate.swift in Sources */,
+				A0C0415C2605F43100A1C86E /* UIView+Layer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
